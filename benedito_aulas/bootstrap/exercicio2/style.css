@@ -91,3 +91,34 @@ footer{
     background-color: #2d3436;
     padding: 30px;
 }
+
+/*---Página Sobre---*/
+#titulo-da-pagina{
+    text-align: center;
+    margin: 30px;
+}
+
+#titulo-da-pagina h1{
+    font-size: 60px;
+    color: #f8efef;
+}
+
+.conteudo{
+    margin-bottom: 50px;
+}
+
+#lado-direito-sobre{
+    flex-direction: column;
+}
+.imagem-exemplo{
+    position: relative;
+    margin: 200px 0;
+    width: 300px;
+}
+#lado-direito-sobre p{
+    position: absolute;
+    right: 0;
+}
+#lado-direito-sobre img{
+    width: 300px;
+}
